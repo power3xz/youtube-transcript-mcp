@@ -70,7 +70,7 @@ server.tool(
               (item, index) => `video${index + 1}: ${item.title}:
 ${item.transcript}`
             )
-            .join("\n"),
+            .join("\n\n"),
         },
       ],
     };
